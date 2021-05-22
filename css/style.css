@@ -1,18 +1,5 @@
 /* lucky 3 */
 
-.float-container {
-    display: grid;
-    grid-template-columns: repeat(5, 10px);
-    grid-gap: 35px;
-    margin-left: 55px;
-}
-
-.float-child {
-    width: 50%;
-    float: left;
-    padding: 5px;
-}
-
 #genthreeOne,
 #genthree2,
 #genthree3 {
@@ -26,13 +13,6 @@
 
 
 /* lucky 4 */
-
-.float-container1 {
-    display: grid;
-    grid-template-columns: repeat(5, 10px);
-    grid-gap: 35px;
-    margin-left: 35px;
-}
 
 #genfour1,
 #genfour2,
@@ -48,13 +28,6 @@
 
 
 /* lucky 5 */
-
-.float-container2 {
-    display: grid;
-    grid-template-columns: repeat(5, 10px);
-    grid-gap: 35px;
-    margin-left: 15px;
-}
 
 #genfive1,
 #genfive2,
@@ -104,13 +77,6 @@
 
 /* lucky 1 */
 
-.float-container3 {
-    display: grid;
-    grid-template-columns: repeat(5, 10px);
-    grid-gap: 40px;
-    margin-left: 50px;
-}
-
 #genone1 {
     width: 40px;
     height: 35px;
@@ -133,7 +99,7 @@
     border-radius: 25px;
     font-size: 10px;
     padding: 7px;
-    margin-left: 55px;
+    /* margin-left: 55px; */
     letter-spacing: 2px;
     box-shadow: 2px 3px 7px 0px rgb(128, 128, 128);
 }
