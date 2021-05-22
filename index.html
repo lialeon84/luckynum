@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lucky Numbers</title>
     <meta name="description" content="">
-  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -26,238 +26,236 @@
 
 <body>
     <div id="all">
-     
-            <br>
 
-            <section class="bg-white bar">
-                <div class="container">
-                    <div class="heading text-center">
-                        <h2>Random Lucky Numbers</h2>
-                    </div>
-                    <br>
+        <br>
+
+        <section class="bg-white bar">
+            <div class="container">
+                <div class="heading text-center">
+                    <h2>Random Lucky Numbers</h2>
+                </div>
+                <br>
+                <div class="heading text-center">
                     <p class="lead">Select which random numbers you want to play: </p>
-                    <br>
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <div class="home-blog-post">
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="home-blog-post">
 
-                                <div class="text">
-                                    <h4 style="text-align: center">Lucky 3 <br>1-9</h4>
+                            <div class="heading text-center">
+                                <h4>Lucky 3 <br>1-9</h4>
 
-                                    <div class="float-container">
+                                <div class="float-container">
 
-                                        <div class="float-child green">
+                                    <div class="float-child green">
 
-                                            <input id="genthreeOne" readonly="readonly">
-                                        </div>
-
-                                        <div class="float-child blue">
-                                            <input id="genthree2" readonly="readonly">
-                                        </div>
-                                        <div class="float-child blue">
-                                            <input id="genthree3" readonly="readonly">
-                                        </div>
+                                        <input id="genthreeOne" readonly="readonly">
                                     </div>
-                                    <p class="intro"></p>
+
+                                    <div class="float-child blue">
+                                        <input id="genthree2" readonly="readonly">
+                                    </div>
+                                    <div class="float-child blue">
+                                        <input id="genthree3" readonly="readonly">
+                                    </div>
+                                </div>
+                                <p class="intro"></p>
+                                <div>
                                     <button id="genthree" class="btn btn-danger" onclick="myThree()">Generate numbers</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="home-blog-post">
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="home-blog-post">
 
-                                <div class="text">
+                            <div class="heading text-center">
 
-                                    <h4 style="text-align: center">Lucky 4<br>1-9</h4>
-                                    <div class="float-container1">
+                                <h4>Lucky 4<br>1-9</h4>
+                                <div class="float-container1">
 
-                                        <div class="float-child green">
-                                            <input id="genfour1" readonly="readonly">
-                                        </div>
-
-                                        <div class="float-child blue">
-                                            <input id="genfour2" readonly="readonly">
-                                        </div>
-                                        <div class="float-child blue">
-                                            <input id="genfour3" readonly="readonly">
-                                        </div>
-                                        <div class="float-child blue">
-                                            <input id="genfour4" readonly="readonly">
-                                        </div>
+                                    <div class="float-child green">
+                                        <input id="genfour1" readonly="readonly">
                                     </div>
-                                    <p class="intro"></p>
+
+                                    <div class="float-child blue">
+                                        <input id="genfour2" readonly="readonly">
+                                    </div>
+                                    <div class="float-child blue">
+                                        <input id="genfour3" readonly="readonly">
+                                    </div>
+                                    <div class="float-child blue">
+                                        <input id="genfour4" readonly="readonly">
+                                    </div>
+                                </div>
+                                <div>
                                     <button id="genfour" class="btn btn-danger" onclick="myFour()">Generate numbers</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="home-blog-post">
-                                <div class="text">
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="home-blog-post">
+                            <div class="heading text-center">
 
-                                    <h4 style="text-align: center">Lucky 5<br>1-35</h4>
-                                    <div class="float-container2">
+                                <h4>Lucky 5<br>1-35</h4>
+                                <div class="float-container2">
 
-                                        <div class="float-child green">
-                                            <input id="genfive1" readonly="readonly">
-                                        </div>
-
-                                        <div class="float-child blue">
-                                            <input id="genfive2" readonly="readonly">
-                                        </div>
-                                        <div class="float-child blue">
-                                            <input id="genfive3" readonly="readonly">
-                                        </div>
-                                        <div class="float-child blue">
-                                            <input id="genfive4" readonly="readonly">
-                                        </div>
-                                        <div class="float-child blue">
-                                            <input id="genfive5" readonly="readonly">
-                                        </div>
+                                    <div class="float-child green">
+                                        <input id="genfive1" readonly="readonly">
                                     </div>
-                                    <p class="intro"></p>
+
+                                    <div class="float-child blue">
+                                        <input id="genfive2" readonly="readonly">
+                                    </div>
+                                    <div class="float-child blue">
+                                        <input id="genfive3" readonly="readonly">
+                                    </div>
+                                    <div class="float-child blue">
+                                        <input id="genfive4" readonly="readonly">
+                                    </div>
+                                    <div class="float-child blue">
+                                        <input id="genfive5" readonly="readonly">
+                                    </div>
+                                </div>
+                                <div>
                                     <button id="genfive" class="btn btn-danger" onclick="myFive()">Generate numbers</button>
                                 </div>
-
                             </div>
                         </div>
-
-
                     </div>
+
+
                 </div>
-            </section>
-            <br><br>
-            <section class="bg-white bar">
-                <div class="container">
-                    <div class="heading text-center">
+            </div>
+        </section>
+        <br><br>
+        <section class="bg-white bar">
+            <div class="container">
+                <div class="heading text-center">
 
-                    </div>
+                </div>
 
-                    <div class="row">
+                <div class="row">
 
 
-                        <div class="col-lg-3">
-                            <div class="home-blog-post">
-                                <div class="text">
+                    <div class="col-lg-3">
+                        <div class="home-blog-post">
+                            <div class="heading text-center">
 
-                                    <h4 style="text-align: center">Lucky 5<br>1-52</h4>
-                                    <div class="float-container2">
+                                <h4>Lucky 5<br>1-52</h4>
+                                <div class="float-container2">
 
-                                        <div class="float-child green">
-                                            <input id="gensix1" readonly="readonly">
-                                        </div>
-
-                                        <div class="float-child blue">
-                                            <input id="gensix2" readonly="readonly">
-                                        </div>
-                                        <div class="float-child blue">
-                                            <input id="gensix3" readonly="readonly">
-                                        </div>
-                                        <div class="float-child blue">
-                                            <input id="gensix4" readonly="readonly">
-                                        </div>
-                                        <div class="float-child blue">
-                                            <input id="gensix5" readonly="readonly">
-                                        </div>
+                                    <div class="float-child green">
+                                        <input id="gensix1" readonly="readonly">
                                     </div>
-                                    <p class="intro"></p>
+
+                                    <div class="float-child blue">
+                                        <input id="gensix2" readonly="readonly">
+                                    </div>
+                                    <div class="float-child blue">
+                                        <input id="gensix3" readonly="readonly">
+                                    </div>
+                                    <div class="float-child blue">
+                                        <input id="gensix4" readonly="readonly">
+                                    </div>
+                                    <div class="float-child blue">
+                                        <input id="gensix5" readonly="readonly">
+                                    </div>
+                                </div>
+                                <div>
                                     <button id="gensix" class="btn btn-danger" onclick="mySix()">Generate numbers</button>
                                 </div>
-
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-lg-3">
-                            <div class="home-blog-post">
-                                <div class="text">
+                    <div class="col-lg-3">
+                        <div class="home-blog-post">
+                            <div class="heading text-center">
 
-                                    <h4 style="text-align: center">Lucky 5<br>1-69</h4>
-                                    <div class="float-container2">
+                                <h4>Lucky 5<br>1-69</h4>
+                                <div class="float-container2">
 
-                                        <div class="float-child green">
-                                            <input id="genseven1" readonly="readonly">
-                                        </div>
-
-                                        <div class="float-child blue">
-                                            <input id="genseven2" readonly="readonly">
-                                        </div>
-                                        <div class="float-child blue">
-                                            <input id="genseven3" readonly="readonly">
-                                        </div>
-                                        <div class="float-child blue">
-                                            <input id="genseven4" readonly="readonly">
-                                        </div>
-                                        <div class="float-child blue">
-                                            <input id="genseven5" readonly="readonly">
-                                        </div>
+                                    <div class="float-child green">
+                                        <input id="genseven1" readonly="readonly">
                                     </div>
-                                    <p class="intro"></p>
+
+                                    <div class="float-child blue">
+                                        <input id="genseven2" readonly="readonly">
+                                    </div>
+                                    <div class="float-child blue">
+                                        <input id="genseven3" readonly="readonly">
+                                    </div>
+                                    <div class="float-child blue">
+                                        <input id="genseven4" readonly="readonly">
+                                    </div>
+                                    <div class="float-child blue">
+                                        <input id="genseven5" readonly="readonly">
+                                    </div>
+                                </div>
+                                <div>
                                     <button id="genseven" class="btn btn-danger" onclick="mySeven()">Generate numbers</button>
                                 </div>
-
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="home-blog-post">
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="home-blog-post">
 
-                                <div class="text">
+                            <div class="heading text-center">
 
-                                    <h4 style="text-align: center">Lucky 1<br>1-25</h4>
-                                    <div class="float-container3">
+                                <h4>Lucky 1<br>1-25</h4>
 
-                                        <div class="float-child green">
-                                            <!-- <input id="genthree1"> -->
-                                        </div>
 
-                                        <div class="float-child blue">
-                                            <input id="genone1" readonly="readonly">
-                                        </div>
-                                        <div class="float-child blue">
-                                            <!-- <input id="genthree3"> -->
-                                        </div>
-                                    </div>
-                                    <p class="intro"></p>
+
+                                <input id="genone1" readonly="readonly">
+
+                                <br></br>
+                                <div>
                                     <button id="genone" class="btn btn-danger" onclick="myOne()">Generate numbers</button>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
-            </section>
-            <!-- FOOTER -->
-            <footer class="main-footer">
+            </div>
+        </section>
+        <!-- FOOTER -->
+        <footer class="main-footer">
 
 
-                <div class="copyrights">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-4 text-center-md">
-                                <small>*Lucky Numbers does not guarantee winning at any game. </small><br>
-                                <small>*Not intended for gambling. </small>
-                                <p>&copy; 2021. Lucky Numbers</p>
-                            </div>
-
+            <div class="copyrights">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 text-center-md">
+                            <small>*Lucky Numbers does not guarantee winning at any game. </small><br>
+                            <small>*Not intended for gambling. </small>
+                            <p>&copy; 2021. Lucky Numbers</p>
                         </div>
+
                     </div>
                 </div>
-            </footer>
-        </div>
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/popper.js/umd/popper.min.js">
-        </script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-        <script src="vendor/jquery.cookie/jquery.cookie.js">
-        </script>
-        <script src="vendor/waypoints/lib/jquery.waypoints.min.js">
-        </script>
-        <script src="vendor/jquery.counterup/jquery.counterup.min.js">
-        </script>
-        <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
-        <script src="vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js"></script>
-        <script src="js/jquery.parallax-1.1.3.js"></script>
-        <script src="vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
-        <script src="vendor/jquery.scrollto/jquery.scrollTo.min.js"></script>
-        <script src="js/front.js"></script>
+            </div>
+        </footer>
+    </div>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js">
+    </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js">
+    </script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js">
+    </script>
+    <script src="vendor/jquery.counterup/jquery.counterup.min.js">
+    </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="vendor/jquery.scrollto/jquery.scrollTo.min.js"></script>
+    <script src="js/front.js"></script>
 </body>
 
 </html>
