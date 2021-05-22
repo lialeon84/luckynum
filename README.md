@@ -3,7 +3,7 @@
 <h1 align="center">Hi 👋, I'm Rose</h1>
 <h3 align="center">A passionate Full Stack developer from Nashville</h3>
 
-- 🔭 I created this fun random number generator inspired by lottery tickets**
+- 🔭 I created this fun random number generator inspired by lottery ticket machine**
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://getbootstrap.com" target="_blank"> 
