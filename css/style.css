@@ -137,3 +137,52 @@
     letter-spacing: 2px;
     box-shadow: 2px 3px 7px 0px rgb(128, 128, 128);
 }
+
+footer.main-footer .copyrights {
+    padding: 20px 0;
+    background: #910a0a;
+    color: #ccc;
+    margin-top: 190px;
+}
+
+footer.main-footer .copyrights a {
+    color: #da4d4d;
+}
+
+footer.main-footer .copyrights p {
+    color: inherit;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+    footer.main-footer .photo-stream a {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 767px) {
+    footer.main-footer .photo-stream li {
+        width: 32%;
+        margin-bottom: 10px;
+    }
+    footer.main-footer .photo-stream a {
+        width: 100%;
+        height: auto;
+    }
+}
+
+small,
+.small {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+h4 {
+    margin-bottom: 1rem;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.1;
+    color: inherit;
+}
